@@ -6,7 +6,7 @@ export const ProjectItem = ({ img, title, desc }) => {
               <div className="bg-black bg-opacity-75 w-full h-full rounded-lg flex flex-col justify-center items-center text-white text-center opacity-0 hover:opacity-100 space-y-3">
                         <h1 className="text-3xl flex">{title}</h1>
                         <p className="px-6">{desc}</p>
-                        <CustomButton link="https://github.com/Jomerjom" text="GitHub"/>
+                        <CustomButton link="https://github.com/Jomerjom/Oppg1_React_Section_with_components" text="GitHub"/>
                 </div>
         </div>
     )
